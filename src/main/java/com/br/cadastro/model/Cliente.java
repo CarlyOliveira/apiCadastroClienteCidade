@@ -15,6 +15,7 @@ import javax.validation.constraints.PastOrPresent;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -40,6 +41,7 @@ public class Cliente {
 	@JsonFormat(pattern = "dd/MM/yyyy")
 	@NotNull(message = "{msg.validacao.campo.cliente.dataDeNascimento}")
 	@PastOrPresent(message = "{msg.validacao.campo.cliente.dataDeNascimento.futuraOuPresente}")
+	@ApiModelProperty(value="Pattern da data dd/MM/yyyy ")
 	private Date dataDeNascimento;
 
 	@NotNull(message = "{msg.validacao.campo.cliente.idade}")
