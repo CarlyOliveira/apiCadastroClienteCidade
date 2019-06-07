@@ -8,8 +8,8 @@ https://api-cadastro-cliente-cidade.herokuapp.com/swagger-ui.html
 
 REST,
 Spring boot,
-Spring boot starter web - Spring mvc, tomcat, RESTFull
-Spring data jpa starter - hibernate,
+Spring boot starter web - (Spring mvc, tomcat, RESTFull),
+Spring data jpa starter - (hibernate),
 spring-boot-starter-test,
 Maven,
 Git,
