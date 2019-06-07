@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.br.cadastro.model.Cidade;
+import com.br.cadastro.dominio.Cidade;
 import com.br.cadastro.service.CidadeService;
 
 import io.swagger.annotations.Api;
@@ -22,7 +22,7 @@ import io.swagger.annotations.ApiOperation;
 @RequestMapping("/api/cidade")
 @Api(value="API REST CIDADES")
 @CrossOrigin(origins="*")
-public class CidadeController {
+public class CidadeApi {
 
 	@Autowired
 	private CidadeService cidadeService;

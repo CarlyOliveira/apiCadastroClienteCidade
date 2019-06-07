@@ -29,7 +29,7 @@ public class SwaggerConfig {
 		@SuppressWarnings("rawtypes")
 		List<VendorExtension> vendorExtensions = new ArrayList<>();
 
-		ApiInfo apiInfo = new ApiInfo("CADASTRO API REST", "API REST de cadastro de clientes e cidades", "1.0",
+		ApiInfo apiInfo = new ApiInfo("CADASTRO API REST", "API REST de cadastro de clientes e cidades.", "1.0",
 				"Termos de servico", contact, "Apache 2.0", "http://www.apache.org/licenses/LICENSE-2.0",
 				vendorExtensions);
 

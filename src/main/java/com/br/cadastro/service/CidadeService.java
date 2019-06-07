@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.br.cadastro.model.Cidade;
+import com.br.cadastro.dominio.Cidade;
 import com.br.cadastro.repository.CidadeRepository;
 
 @Service

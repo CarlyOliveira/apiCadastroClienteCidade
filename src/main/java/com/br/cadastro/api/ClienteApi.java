@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.br.cadastro.model.Cliente;
+import com.br.cadastro.dominio.Cliente;
 import com.br.cadastro.service.ClienteService;
 
 import io.swagger.annotations.Api;
@@ -20,9 +20,9 @@ import io.swagger.annotations.ApiOperation;
 
 @RestController
 @RequestMapping("/api/cliente")
-@Api(value="API REST CIDADES")
+@Api(value="API REST CLIENTES")
 @CrossOrigin(origins="*")
-public class ClienteController {
+public class ClienteApi {
 
 	@Autowired
 	private ClienteService clienteService;

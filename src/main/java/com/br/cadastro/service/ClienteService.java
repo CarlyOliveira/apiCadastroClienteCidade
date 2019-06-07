@@ -3,8 +3,8 @@ package com.br.cadastro.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.br.cadastro.dominio.Cliente;
 import com.br.cadastro.exception.CadastroException;
-import com.br.cadastro.model.Cliente;
 import com.br.cadastro.repository.ClienteRepository;
 
 @Service
