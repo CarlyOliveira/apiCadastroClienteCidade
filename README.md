@@ -6,14 +6,16 @@ https://api-cadastro-cliente-cidade.herokuapp.com/swagger-ui.html
 
 # Tecnologias 
 
-REST
-Spring boot
+REST,
+Spring boot,
 Spring boot starter web - Spring mvc, tomcat, RESTFull
-Spring data jpa starter - hibernate 
-spring-boot-starter-test
-Maven
-Git
-Java 8
+Spring data jpa starter - hibernate,
+spring-boot-starter-test,
+Maven,
+Git,
+Java 8,
+Loombok,
+Swagger2,
 Banco em memoria - H2
 
 
